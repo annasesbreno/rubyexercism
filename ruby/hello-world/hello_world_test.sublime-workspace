@@ -1,0 +1,524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"im",
+				"border-image"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"de",
+				"detailed"
+			],
+			[
+				"Co",
+				"content"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"post",
+				"post"
+			],
+			[
+				"d",
+				"detailed"
+			],
+			[
+				"po",
+				"posts"
+			],
+			[
+				"posts",
+				"posts"
+			],
+			[
+				"des",
+				"desc"
+			],
+			[
+				"C",
+				"Company"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"P",
+				"Posts"
+			],
+			[
+				"new",
+				"new_posts_number"
+			],
+			[
+				"det",
+				"detailed"
+			],
+			[
+				"su",
+				"summary"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"ta",
+				"tags"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"mod",
+				"model_id"
+			],
+			[
+				"els",
+				"elsif"
+			],
+			[
+				"cho",
+				"choice"
+			],
+			[
+				"tran",
+				"transaction"
+			],
+			[
+				"tra",
+				"trans"
+			],
+			[
+				"nam",
+				"name"
+			],
+			[
+				"t",
+				"transaction"
+			],
+			[
+				"US",
+				"Users"
+			],
+			[
+				"ua",
+				"username"
+			],
+			[
+				"User",
+				"Users"
+			],
+			[
+				"to",
+				"to_sym"
+			],
+			[
+				"tr",
+				"trans"
+			],
+			[
+				"req",
+				"requested_floor"
+			],
+			[
+				"def",
+				"default_floor"
+			],
+			[
+				"max",
+				"max_floor"
+			],
+			[
+				"mx",
+				"max_floor"
+			],
+			[
+				"mi",
+				"min_floor"
+			],
+			[
+				"el",
+				"elevator"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"cu",
+				"current_queue"
+			],
+			[
+				"ele",
+				"elevator_visit"
+			],
+			[
+				"fl",
+				"floor"
+			],
+			[
+				"cur",
+				"current_floor"
+			],
+			[
+				"fi",
+				"firstname"
+			],
+			[
+				"fo",
+				"foobaz"
+			],
+			[
+				"foo",
+				"foobar"
+			],
+			[
+				"Has",
+				"hash"
+			],
+			[
+				"My",
+				"MySpecialError"
+			],
+			[
+				"al",
+				"always_run"
+			],
+			[
+				"exce",
+				"exception_handled"
+			],
+			[
+				"S",
+				"StandardError"
+			],
+			[
+				"Ru",
+				"RuntimeError"
+			],
+			[
+				"fal",
+				"false_value"
+			],
+			[
+				"tru",
+				"true_value"
+			],
+			[
+				"sp",
+				"sparky"
+			],
+			[
+				"an",
+				"Animal"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"p",
+				"puts"
+			],
+			[
+				"w",
+				"weight"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"b",
+				"b4"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/annasesbreno/Desktop/annasesbreno/index.html",
+		"/Users/annasesbreno/Desktop/annasesbreno/contact.html",
+		"/Users/annasesbreno/Desktop/annasesbreno/annaa.html",
+		"/Users/annasesbreno/Desktop/annaasesbreno/annaa.html",
+		"/Users/annasesbreno/Desktop/annasesbreno/anna.html",
+		"/Users/annasesbreno/Desktop/annasesbreno/style.css",
+		"/Users/annasesbreno/Desktop/anna-sesbreno/annaa.html",
+		"/Users/annasesbreno/Desktop/activity/style.css",
+		"/Users/annasesbreno/Desktop/activity/anna.html",
+		"/Users/annasesbreno/Desktop/activity/user.rb",
+		"/Users/annasesbreno/Desktop/activity/main.rb",
+		"/Users/annasesbreno/Desktop/activity/post.rb",
+		"/Users/annasesbreno/user/testt.rb",
+		"/Users/annasesbreno/user/ruby.rb",
+		"/Users/annasesbreno/user/users.rb",
+		"/Users/annasesbreno/simple-budget/main.rb",
+		"/Users/annasesbreno/simple-budget/transaction.rb",
+		"/Users/annasesbreno/simple-budget/user.rb",
+		"/Users/annasesbreno/simple-budget/app_view.rb",
+		"/Users/annasesbreno/Transaction/testit.rb",
+		"/Users/annasesbreno/Transaction/ruby.rb",
+		"/Users/annasesbreno/Transaction/elevator.rb",
+		"/Users/annasesbreno/our-app/in.html",
+		"/Users/annasesbreno/our-app/ANNA SESBRENO-PHP/PHP/4TH YEAR/exer4.html",
+		"/Users/annasesbreno/Transaction/testing.rb",
+		"/Users/annasesbreno/Transaction/require main.rb",
+		"/Users/annasesbreno/our-app/hey.htmls",
+		"/Users/annasesbreno/elevator/person.rb",
+		"/Users/annasesbreno/elevator/song.rb",
+		"/Users/annasesbreno/elevator/cab.rb",
+		"/Users/annasesbreno/elevator/elevate.rb",
+		"/Users/annasesbreno/elavator/elevate",
+		"/Users/annasesbreno/our-app/<!DE html>",
+		"/Users/annasesbreno/our-app/ANNA SESBRENO-PHP/PHP/3RD YEAR/Exer4B.php",
+		"/Users/annasesbreno/our-app/ANNA SESBRENO-PHP/PHP/3RD YEAR/Exer4A.html",
+		"/Users/annasesbreno/Anna/testsample3/sample3/student",
+		"/Users/annasesbreno/blog/pres.rb",
+		"/Users/annasesbreno/blog/index.html",
+		"/Users/annasesbreno/blog/config/database.yml",
+		"/Users/annasesbreno/blof/config/database.yml",
+		"/Users/annasesbreno/Anna/testsample3/sample3/z.rb",
+		"/Users/annasesbreno/Anna/testsample3/sample3/y.rb",
+		"/Users/annasesbreno/Anna/testsample3/sample3/x.rb",
+		"/Users/annasesbreno/blog/public/index.html",
+		"/Users/annasesbreno/Anna/testsample2/testsample2/public/index.html",
+		"/Users/annasesbreno/Anna/testsample2/testsample2/config/database.yml",
+		"/Users/annasesbreno/connect4/wmrug_player.rb",
+		"/Users/annasesbreno/connect4/stupid_player.rb",
+		"/Users/annasesbreno/connect4/human_player.rb",
+		"/Users/annasesbreno/connect4/guy_player.rb",
+		"/Users/annasesbreno/connect4/util.rb",
+		"/Users/annasesbreno/connect4/game.rb",
+		"/Users/annasesbreno/connect4/console_renderer.rb",
+		"/Users/annasesbreno/connect4/board.rb",
+		"/Users/annasesbreno/koans/player_server.rb",
+		"/Users/annasesbreno/koans/play.rb",
+		"/Users/annasesbreno/koans/about_hashes.rb",
+		"/Users/annasesbreno/Anna/testsample3/sample3/sample3.rb",
+		"/Users/annasesbreno/koans/about_methods.rb",
+		"/Users/annasesbreno/koans_3/about_message_passing.rb",
+		"/Users/annasesbreno/koans_3/about_keyword_arguments.rb",
+		"/Users/annasesbreno/koans_3/about_java_interop.rb",
+		"/Users/annasesbreno/koans/about_iteration.rb",
+		"/Users/annasesbreno/koans_3/about_hashes.rb",
+		"/Users/annasesbreno/koans/about_extra_credit.rb",
+		"/Users/annasesbreno/koans/about_exceptions.rb",
+		"/Users/annasesbreno/koans_3/about_exceptions.rb",
+		"/Users/annasesbreno/koans/about_dice_project.rb",
+		"/Users/annasesbreno/koans_3/about_dice_project.rb",
+		"/Users/annasesbreno/koans_3/about_control_statements.rb",
+		"/Users/annasesbreno/koans/about_blocks.rb",
+		"/Users/annasesbreno/koans/about_arrays.rb",
+		"/Users/annasesbreno/Anna/testsample2/testsample2/class Hello",
+		"/Users/annasesbreno/koans/about_array_assignment.rb",
+		"/Users/annasesbreno/koans/about_triangle_project_2.rb",
+		"/Users/annasesbreno/koans/about_to_str.rb",
+		"/Users/annasesbreno/koans/about_symbols.rb",
+		"/Users/annasesbreno/koans/about_sandwich_code.rb",
+		"/Users/annasesbreno/koans/about_regular_expressions.rb",
+		"/Users/annasesbreno/koans/about_open_classes.rb",
+		"/Users/annasesbreno/koans/about_objects.rb",
+		"/Users/annasesbreno/koans/about_nil.rb",
+		"/Users/annasesbreno/koans/about_modules.rb",
+		"/Users/annasesbreno/koans/about_message_passing.rb",
+		"/Users/annasesbreno/koans/about_keyword_arguments.rb",
+		"/Users/annasesbreno/koans/about_java_interop.rb",
+		"/Users/annasesbreno/koans/about_inheritance.rb",
+		"/Users/annasesbreno/koans/about_control_statements.rb",
+		"/Users/annasesbreno/koans/about_constants.rb",
+		"/Users/annasesbreno/koans/about_classes.rb",
+		"/Users/annasesbreno/koans/about_class_methods.rb",
+		"/Users/annasesbreno/koans/about_asserts.rb",
+		"/Users/annasesbreno/Downloads/koans 2/about_array_assignment.rb",
+		"/Users/annasesbreno/Anna/testsample/class.rb",
+		"/Users/annasesbreno/codes/array"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"foo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hello_world_test.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
