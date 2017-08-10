@@ -1,0 +1,29 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: #6d6b6b;
+    text-align: left;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+    color: #6d6b6b;
+    font-style: italic;
+    margin: 20px;
+    padding: 40px;
+}
+
+h2 {
+	background-color: #a09f9f;
+    font-size: 1.5em;
+    color: #fffcfc;
+}
+
+
+h3 {
+	background-color: #a09f9f;
+    font-size: 1.5em;
+    text-align: left;
+    color: #fffcfc;
+}
