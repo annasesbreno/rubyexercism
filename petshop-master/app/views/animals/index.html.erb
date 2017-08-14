@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<div>
+  <center><h1>My Pet Shop - Inventory</h1></center>
+</div>
+
+<h2>My Animals</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Species</th>
+      <th>Breed</th>
+      <th>Price</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @animal.each do |animal| %>
+      <tr>
+        <td><%= animal.Species %></td>
+        <td><%= animal.Breed %></td>
+        <td><%= animal.Price %></td>
+        <td><button><%= link_to 'Edit', edit_animal_path(animal) %></button></td>
+        <td><button><%= link_to 'For Sale', animal%></button></td>
+        <td><button><%= link_to 'Sold', animal%></button></td>
+        <td><button><%= link_to 'Show', animal %></button></td>
+        <td><button><%= link_to 'Delete', animal, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<button><%= link_to 'Add New Animal', new_animal_path %></button>

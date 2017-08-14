@@ -1,0 +1,10 @@
+<div>
+  <center><h1>My Pet Shop - Inventory</h1></center>
+</div>
+
+<h2>Editing Profile</h2>
+
+<%= render 'form', animal: @animal %>
+
+<button><%= link_to 'Show', @animal %></button> |
+<button><%= link_to 'Back', animals_path %></button>

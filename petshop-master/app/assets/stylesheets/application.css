@@ -1,0 +1,4 @@
+body { padding-top: 10px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 2px solid #DDD; }

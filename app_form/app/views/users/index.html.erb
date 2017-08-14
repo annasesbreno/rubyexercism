@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Job Application</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th><br>
+      <th>Birthdate</th><br>
+      <th>Address</th><br>
+      <th>Telephone</th><br>
+      <th>City</th><br>
+      <th>State</th><br>
+      <th>Zip</th><br>
+      <th>For which job are you applying?</th><br>
+      <th>What will you do if hired?</th><br>
+      <th>Previous job experience:</th><br>
+      <th colspan="2"></th>
+    </tr>
+  </thead>
+
+
+  <tbody>
+    <% @users.each do |user| %>
+      <tr>
+        <td><%= user.name %></td>
+        <td><%= user.birthdate %></td>
+        <td><%= user.address %></td>
+        <td><%= user.telephone %></td>
+        <td><%= user.city %></td>
+        <td><%= user.state %></td>
+        <td><%= user.zip %></td>
+        <td><%= user.apply %></td>
+        <td><%= user.hire %></td>
+        <td><%= user.pjob %></td>
+        <td><%= link_to 'Show', user %></td>
+        <td><%= link_to 'Edit', edit_user_path(user) %></td>
+        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Create Account', new_user_path %>

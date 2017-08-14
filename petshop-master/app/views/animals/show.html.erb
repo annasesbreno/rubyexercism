@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<div>
+  <center><h1>My Pet Shop - Inventory</h1></center>
+</div>
+
+<p>
+  <strong>Species:</strong>
+  <%= @animal.Species %>
+</p>
+
+<p>
+  <strong>Breed:</strong>
+  <%= @animal.Breed %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @animal.Price %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @animal.Status %>
+</p>
+
+
+<button><%= link_to 'Edit', edit_animal_path(@animal) %></button> |
+<button><%= link_to 'Back', animals_path %></button>
