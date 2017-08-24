@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+<div>
+  <center><h1>Pet Shop Inventory</h1></center>
+</div>
+
+<p>
+<strong>FILTER BY BREED</strong>
+<% @animals_breed_sale.each do |breeds, animals| %>
+  <br><%= breeds %>
+	<% end %>
+<% @animals_breed_sold.each do |breeds, animals| %>
+  <br><%= breeds %>
+	<% end %>
+</p>
+
+
+<br>
+<br><button><%= link_to 'Species', show_species_path%></button> -
+<button><%= link_to 'Breed', show_breed_path%></button> -
+<button><%= link_to 'Status', show_status_path%></button>
+
+<br>
+<br><br><button><%= link_to 'Back', animals_path%></button>

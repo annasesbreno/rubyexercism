@@ -1,36 +1,44 @@
 <p id="notice"><%= notice %></p>
 
 <div>
-  <center><h1>My Pet Shop - Inventory</h1></center>
+  <center><h1>Pet Shop Inventory</h1></center>
 </div>
 
-<h2>My Animals</h2>
+<h3>Animals</h3>
 
 <table>
   <thead>
     <tr>
-      <th>Species</th>
-      <th>Breed</th>
-      <th>Price</th>
+      <th><center>#</center></th>
+      <th><center>Species</center></th>
+      <th><center>Breed</center></th>
+      <th><center>Price</center></th>
+      <th><center>Status<center></th>
       <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
-    <% @animal.each do |animal| %>
+    <% @animal.each_with_index do |animal, i| %>
       <tr>
-        <td><%= animal.Species %></td>
+        <td><%= (i+1) %></td>
+        <td><center><%= animal.Species %></center></td>
         <td><%= animal.Breed %></td>
         <td><%= animal.Price %></td>
-        <td><button><%= link_to 'Edit', edit_animal_path(animal) %></button></td>
-        <td><button><%= link_to 'For Sale', animal%></button></td>
-        <td><button><%= link_to 'Sold', animal%></button></td>
-        <td><button><%= link_to 'Show', animal %></button></td>
-        <td><button><%= link_to 'Delete', animal, method: :delete, data: { confirm: 'Are you sure?' } %></button></td>
+        <td><%= animal.Status %></td>
+        <% if animal.Status == 'For Sale' %>
+          <td><button><%= link_to 'Mark as Sold', animal_change_status_sold_path(animal)%></button></td>
+        <% else %>
+          <td><button><%= link_to 'Mark as Sale', animal_change_status_sale_path(animal)%></button></td>
+        <%end%>
+        <td><button><%= link_to 'Show', animal%></button></td>
+        <td><button><%= link_to 'Edit', edit_animal_path(animal) %></button></td> 
+        <td><button><%= link_to 'Delete', animal, method: :delete, data: { confirm: 'Are you sure?' } %></button>  </td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-<button><%= link_to 'Add New Animal', new_animal_path %></button>
+<button><%= link_to 'Add Animal', new_animal_path %></button> 
+<button><%= link_to 'Inventory', show_inventory_path%></button>

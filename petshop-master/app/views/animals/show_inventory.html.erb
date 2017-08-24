@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+<div>
+  <center><h1>Pet Shop Inventory</h1></center>
+</div>
+
+<h2>Summary</h2>
+<br>
+
+<p>
+<strong>FOR SALE</strong>
+<% @animals_for_sale.each do |species, animals| %>
+   <br><strong>Number of <%= species %>s:</strong>
+       <%= animals.count %>
+<% end %>
+</p>
+
+<p>
+<strong>SOLD</strong> 
+<% @animals_for_sold.each do |species, animals| %>
+   <br><strong>Number of <%= species %>s:</strong>
+       <%= animals.count %>
+<% end %>
+</p>
+
+<p>
+<strong>Total Amount Received From Sales:</strong>
+	<%= @animal = Animal.sum(&:Price) %>
+</p>
+<br>
+
+<h2>Filter</h2>
+<br><button><%= link_to 'Species', show_species_path%></button> -
+<button><%= link_to 'Breed', show_breed_path%></button> -
+<button><%= link_to 'Status', show_status_path%></button>
+
+<br>
+<br><br><button><%= link_to 'Back', animals_path%></button>
